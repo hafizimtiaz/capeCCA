@@ -1,7 +1,6 @@
 clear all;clc;close all
 
-% path = '../Data/Synth/';
-path = '';
+path = '../datasets/Synth/';
 load([path, 'synth_data_d20_K5_N50k_new.mat'])
 nensemble = 100;    % number of independent runs
 epsilon = 1;

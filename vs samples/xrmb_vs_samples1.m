@@ -1,7 +1,6 @@
 clear all;clc;close all
 
-% path = '../Data/XRMB/';
-path = '';
+path = '../datasets/XRMB/';
 
 nensemble = 100;    % number of independent runs
 p_all = [10, 20, 30, 40, 50]';

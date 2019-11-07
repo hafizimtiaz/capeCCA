@@ -1,7 +1,6 @@
 clear all;clc;close all
 
-% path = '../Data/MNIST/';
-path = '';
+path = '../datasets/MNIST/';
 load([path, 'MNIST_preprocessed_d100_N30k_new.mat'])
 nensemble = 100;    % number of independent runs
 epsilon_all = [1e-3 1e-2 5e-2 1e-1 1 5 10]';

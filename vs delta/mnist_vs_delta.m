@@ -1,7 +1,7 @@
 clear all;clc;close all
 
 % path = '/Users/hafizimtiaz/OneDrive/Backup from Dropbox/Rutgers Research/Implementation of CCA/Distributed CCA/Data/Synth/';
-path = '';
+path = '../datasets/MNIST/';
 load([path, 'MNIST_preprocessed_d100_N50k_new.mat'])
 nensemble = 100;    % number of independent runs
 epsilon = 0.05;

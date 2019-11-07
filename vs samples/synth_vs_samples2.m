@@ -1,7 +1,6 @@
 clear all;clc;close all
 
-% path = '../Data/Synth/';
-path = '';
+path = '../datasets/Synth/';
 
 nensemble = 100;    % number of independent runs
 N_all = [10, 20, 30, 50, 100, 200, 500, 800]' * 1000;

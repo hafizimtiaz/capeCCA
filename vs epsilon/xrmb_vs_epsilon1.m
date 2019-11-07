@@ -1,7 +1,6 @@
 clear all;clc;close all
 
-% path = '../Data/XRMB/';
-path = '';
+path = '../datasets/XRMB/';
 load([path, 'XRMB_preprocessed_d50_p30_new.mat'])
 nensemble = 100;    % number of independent runs
 epsilon_all = [1e-3 1e-2 5e-2 1e-1 1 5 10]';

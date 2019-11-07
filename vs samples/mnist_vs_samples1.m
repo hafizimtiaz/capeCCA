@@ -1,7 +1,6 @@
 clear all;clc;close all
 
-% path = '../Data/MNIST/';
-path = '';
+path = '../datasets/MNIST/';
 
 nensemble = 100;    % number of independent runs
 N_all = [10, 20, 30, 40, 50]' * 1000;

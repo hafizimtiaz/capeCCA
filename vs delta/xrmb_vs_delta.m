@@ -1,7 +1,7 @@
 clear all;clc;close all
 
 % path = '/Users/hafizimtiaz/OneDrive/Backup from Dropbox/Rutgers Research/Implementation of CCA/Distributed CCA/Data/Synth/';
-path = '../Data/XRMB/';
+path = '../datasets/XRMB/';
 load([path, 'XRMB_preprocessed_d50_p30_new.mat'])
 nensemble = 100;    % number of independent runs
 epsilon = 0.2;
